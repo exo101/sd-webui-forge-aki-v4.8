@@ -43,6 +43,17 @@
 | 图像输出目录 | `sd-webui-forge-aki-v4.5\outputs` |
 | 整合包解压软件|`7z2501-x64.exe` |
 | 默认安装至C盘|`启动器运行依赖-dotnet-6.0.11.exe` |
+
+
+| 类型 | 目录路径 |
+|---------|---------|
+| ps ai插件 | `sd-webui-forge-aki-v4.7\extensions\sd-ppp-1.5.4` |
+| ps ai插件 | `sd-webui-forge-aki-v4.7\extensions\Auto-Photoshop-StableDiffusion-Plugin` |
+| 换脸插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-reactor` |
+| 换脸插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-roop` |
+| 多模态插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-MultiModal` |
+| 无边浏览图像插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-infinite-image-browsing` |
+
   
 ## 更新内容
 2025/11/25
