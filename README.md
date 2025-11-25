@@ -30,8 +30,6 @@
 - <img width="1394" height="650" alt="354546" src="https://github.com/user-attachments/assets/ebd7c551-6ad9-4a34-819d-33b197a5055f" />
   
 
-
-
 | 类型 | 目录路径 |
 |---------|---------|
 | 主模型 | `sd-webui-forge-aki-v4.5\models\Stable-diffusion` |
@@ -43,18 +41,23 @@
 | ControlNet预处理器 | `sd-webui-forge-aki-v4.5\models\ControlNetPreprocessor` |
 | 插件目录 | `sd-webui-forge-aki-v4.5\extensions` |
 | 图像输出目录 | `sd-webui-forge-aki-v4.5\outputs` |
-| ps ai插件目录 |`ps2023\Adobe Photoshop 2023\Plug-ins` |
-| Ollama图像识别程序|`OllamaSetup.exe` |
 | 整合包解压软件|`7z2501-x64.exe` |
 | 默认安装至C盘|`启动器运行依赖-dotnet-6.0.11.exe` |
   
 ## 更新内容
+2025/11/25
+- 4.7整合包修复了旧插件与webui froge的兼容
+- 增加换脸插件 sd-webui-reactor
+- 增加换脸插件 sd-webui-roop
+- 增加psai插件 sd-ppp
+- 增加无边浏览图像插件 sd-webui-infinite-image-browsing
+  
+
 2025/11/14
 - 整合包增加了ui交互指南，降低了使用难度，参数科普，各类模型加载方式，快捷描述方式
 - 增加FLUX加速lora放到了网盘插件模型的lora目录中，Hyper-FLUX.1-dev-8steps-lora，大大降低生成时间
 - <img width="1852" height="538" alt="QQ20251114-221008" src="https://github.com/user-attachments/assets/94e8a632-1052-4c62-b652-2b1ee0748ee3" />
-<img width="736" height="527" alt="QQ20251114-221148" src="https://github.com/user-attachments/assets/acf98dfe-52d7-4155-a6ae-1e24cad48b60" />
-
+  <img width="736" height="527" alt="QQ20251114-221148" src="https://github.com/user-attachments/assets/acf98dfe-52d7-4155-a6ae-1e24cad48b60" />
 
  2025/10/31
 - 添加nunchaku-qwen-image-edit-2509 lora功能加载
@@ -130,6 +133,8 @@
  如 controlnet-union-sdxl-1.0_promax.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
 
 在我视频简介下方提供的下载链接中提供的controlnet模型和预处理器是不全的，缺少的自行下载，我下载的是常用的，不常用的就没有下载
+不建议折腾IP-Adapter预处理器，这个预处理器高达十几个版本的模型，相互的对应关系冗长复杂，名称更是繁多，需要颇费一番功夫才能知道了解清楚
+如今已有换脸插件代替IP-Adapter预处理代替了这个换脸功能，风格迁移已由qwen的编辑模型使用lora可以更好的实现
 
 <img width="859" height="766" alt="123123" src="https://github.com/user-attachments/assets/f516969f-5cb4-4aab-a812-437e751d5520" />
 
