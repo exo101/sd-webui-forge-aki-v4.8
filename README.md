@@ -52,9 +52,11 @@
 | 多模态插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-MultiModal` |
 | 无边浏览图像插件 | `sd-webui-forge-aki-v4.7\extensions\sd-webui-infinite-image-browsing` |
 
-  
 ## 更新内容
-2025/11/25
+2025/12/8
+- 4.8整合包删除过时无用的插件，精简ui界面
+- 部署Z-Image-Turbo模型
+  
 - 4.7整合包修复了旧插件与webui froge的兼容
 - 增加换脸插件 sd-webui-reactor
 - 增加换脸插件 sd-webui-roop
@@ -136,6 +138,10 @@
 低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
 <img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
 
+高清放大算法介绍
+
+
+
 ### ControlNet使用说明
 
  如 control_v11p_sd15s2_lineart_anime.pth标识带有sd15就是1.5模型使用的，而1.5大模型只有2gb左右
@@ -178,20 +184,7 @@ TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答�
 
 <img width="1797" height="844" alt="45644" src="https://github.com/user-attachments/assets/56a6c2ed-c187-4ce6-b713-ce7be41ee264" />
 
-### PS AI插件
-- ps 2023最为稳定
-- 由两个包组成才行完成运行
-- 1.整合包ps插件的部分Auto-Photoshop-StableDiffusion-Plugin,已安装在整合包当中无需再下载安装
-- 2.PS插件部分放置ps2023\Adobe Photoshop 2023\Plug-ins
--<img width="671" height="312" alt="Snipaste_2025-10-11_11-45-18" src="https://github.com/user-attachments/assets/a57b5787-120c-42af-9df1-1a2b677e2348" />
 
-- 地址 Auto.Photoshop.SD.plugin_v1.4.1 https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin/releases/tag/v1.4.1
- <img width="691" height="493" alt="88" src="https://github.com/user-attachments/assets/19f0cc5a-68f7-42d0-89ef-8fbedf995cda" />
- <img width="1860" height="1024" alt="33" src="https://github.com/user-attachments/assets/9f9ec311-7a3d-4d12-bc45-5a3a317e0ddb" />
-
-- 插件设置：可同时链接Webui与comfyui，Automatic111就是Webui的链接后端，zh_CN设置为中文
-- <img width="614" height="804" alt="55" src="https://github.com/user-attachments/assets/dce00245-cdb3-49ca-a421-6d9cf348f585" />
-- 功能演示教程请看此视频https://www.bilibili.com/video/BV1ybv4ehEAP?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
 
 ### wd1.4标签器插件
 - 选择模型wd14-vit-v2-git
