@@ -68,7 +68,6 @@
 
 
 | 整合包目录 |插件路径 |
-|---------|---------|
 | `sd-webui-forge-aki`|`extensions` |插件目录|
 | `sd-webui-forge-aki`|`outputs` |图像输出目录|
 | `sd-webui-forge-aki`|`extensions\sd-ppp-1.5.4` |
