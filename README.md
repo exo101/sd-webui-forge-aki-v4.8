@@ -16,6 +16,21 @@
 - 推荐的显卡NVIDIA系列：3080,3090,4060ti,4070，4070TI,4080,4090
 - 5060TI,5070,5070TI,5080,5090
 
+- Qwen-Image: 12GB /内存64g
+- Qwen3vL: 10GB
+- Z-Image-Turbo:12g//内存32g
+- Segment Anything: 10GB
+- Cleaner: 8GB
+- LatentSync: 12GB
+- Index-TTS: 12GB
+- FLUX.1-Kontext:8GB
+- FLUX-krea:8GB
+- FLUX:8GB
+- XL: 8GB
+- roop：8GB
+
+
+
 ## 下载地址可查看个人主页视频简介下方：
 
 [https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805) 
