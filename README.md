@@ -52,6 +52,8 @@
 | `sd-webui-forge-aki`|`models`|`lora`| LoRA微调模型目录 |
 | `sd-webui-forge-aki`|`models`|`LatentSync`| 数字人视频生成模型目录 |
 | `sd-webui-forge-aki`|`models`|`qwen-image`| qwen模型与组件总目录 |
+| `sd-webui-forge-aki`|`models`|`Qwen-Image-Edit-2511-SDNQ-uint4-svd-r32`| qwen编辑模型目录 |
+| `sd-webui-forge-aki`|`models`|`Qwen-Image-Layered-SDNQ-uint4-svd-r32`| qwen图层分离模型目录 |
 | `sd-webui-forge-aki`|`models`|`index-tts2`| Index-TTS语音合成模型目录 |
 | `sd-webui-forge-aki`|`models`|`FLUX.1-Kontext-dev`| nunchuku量化fluX系列模型目录 |
 | `sd-webui-forge-aki`|`models`|`ControlNet`| ControlNet控制模型目录 |
@@ -72,6 +74,14 @@
 | `sd-webui-forge-aki`|`outputs` |图像输出目录|
 
 | `sd-webui-forge-aki`|`extensions\sd-webui-MultiModal` | 多模态插件 |
+### 更新内容
+2025/12/30
+- 添加Z-Image-Turbo-SDNQ-uint4-svd-r32 量化模型支持（全位量化）存储更低，显存降低 速度提升
+- 添加Z-Image-Turbo nuchaku量化模型支持（transformer主模型量化），显存降低 速度提升
+- 添加Qwen-Image-Edit-2511-SDNQ-uint4量化模型支持
+- 添加Qwen-Image-Layered图层分离
+- 添加nunchuku flux ControlNet 支持 （补全缺失模块）
+- 下载sd-webui-forge-aki-v5.0 整合包
 
 
 ## 更新内容
